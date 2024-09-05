@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 
-export default function TaskItem(item = {}, btns = []) {
+export default function TaskItem({item = {}, btns = []}) {
   return (
     <li>
       {item.title}{" "}
@@ -12,7 +12,7 @@ export default function TaskItem(item = {}, btns = []) {
           handleClick={() => btn.action(item)}
         ></Button>
       ))}
-      <button onClick={() => handleTaskDone(item)}>Done</button>
+      
     </li>
   );
 }

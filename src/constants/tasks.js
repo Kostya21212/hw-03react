@@ -1,4 +1,4 @@
-const API = "https://667aa1dabd627f0dcc8fd4af.mockapi.io/Data";
+const API = "https://6675570ea8d2b4d072efa0bb.mockapi.io/tasks";
 const TAS_STATUS = {
   TODO: 0,
   PROGRESS: 1,

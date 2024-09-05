@@ -60,6 +60,7 @@ export default function Tasks() {
           },
         }),
         response = await request.json();
+        console.log(response);
       setTask((prevState) =>
         prevState.map((element) => {
           if (element.id === response.id) element = response;
